@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>MES Induction Form</title>
+
+    <style>
+
+        body {
+            background-color: #f1eef7;
+            font-family: Arial;
+            margin: 0;
+            padding: 30px;
+        }
+
+        .form {
+            width: 600px;
+            margin: auto;
+        }
+
+        .top {
+            background-color: white;
+            padding: 25px;
+            border-top: 8px solid #673ab7;
+            margin-bottom: 12px;
+        }
+
+        .top img {
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+
+        .top h1 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .top p {
+            color: #555;
+        }
+
+        .question {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 12px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 90%;
+            padding: 10px;
+            margin-top: 12px;
+            border: none;
+            border-bottom: 1px solid #777;
+            outline: none;
+        }
+
+        .domain {
+            margin-top: 15px;
+        }
+
+        textarea {
+            width: 90%;
+            margin-top: 12px;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #673ab7;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 4px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<div class="form">
+
+    <div class="top">
+
+        <img src="mes-logo.jpeg">
+
+        <h1>Mechanical Engineering Society Induction Form</h1>
+
+        <p><b>"Pride Honor Glory"</b></p>
+
+        <p>
+            Welcome to the Mechanical Engineering Society.
+            Please fill in the following details for the induction process.
+        </p>
+
+        <p>* Indicates required question</p>
+
+    </div>
+
+
+    <form>
+
+
+        <div class="question">
+
+            <label>Name *</label>
+            <br>
+
+            <input type="text"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Email *</label>
+            <br>
+
+            <input type="email"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Roll Number *</label>
+            <br>
+
+            <input type="text"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Whatsapp Number *</label>
+            <br>
+
+            <input type="tel"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Alternate Mobile Number</label>
+            <br>
+
+            <input type="tel"
+                   placeholder="Your answer">
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Domain *</label>
+
+            <div class="domain">
+
+                <input type="radio" name="domain" required>
+                Graphic Designing and Content Writing
+
+            </div>
+
+            <div class="domain">
+
+                <input type="radio" name="domain">
+                Video Editing
+
+            </div>
+
+            <div class="domain">
+
+                <input type="radio" name="domain">
+                Web Development
+
+            </div>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Strength *</label>
+            <br>
+
+            <input type="text"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>Weakness *</label>
+            <br>
+
+            <input type="text"
+                   placeholder="Your answer"
+                   required>
+
+        </div>
+
+
+        <div class="question">
+
+            <label>
+                Mention the software/platform used for the domain
+            </label>
+
+            <br>
+
+            <textarea rows="4"
+                      placeholder="Your answer"></textarea>
+
+        </div>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
